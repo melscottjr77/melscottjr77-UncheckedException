@@ -14,6 +14,7 @@ public class Lab {
      * event happens, like running out of computer memory.
      */
     public void throwUncheckedException(){
-
+        int array [] = {1, 2, 3, 4, 5};
+        System.out.println(array[7]);
     }
 }
